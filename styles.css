@@ -20,7 +20,19 @@ body {
 
 .logo {
   max-width: 200px; /* Adjust size as needed */
+  animation: hover 4s ease-in-out infinite;
 }
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Moves 10px upward */
+  }
+  100% {
+    transform: translateY(0);
+  }
 
 /* Main Container */
 .container {
