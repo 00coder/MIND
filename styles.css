@@ -20,10 +20,10 @@ body {
 
 .logo {
   max-width: 200px; /* Adjust size as needed */
-  animation: hover 4s ease-in-out infinite;
+  animation: floating 4s ease-in-out infinite;
 }
 
-@keyframes hover {
+@keyframes floating {
   0% {
     transform: translateY(0);
   }
@@ -100,6 +100,6 @@ button:hover {
 
 /* Contact Footer */
 footer.contact {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 16px;
 }
