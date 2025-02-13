@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mind Reader</h1>
+        <p>Think of a number between <strong>1 and 100</strong> and type it below.</p>
+        <input type="number" id="userNumber" min="1" max="100">
+        <button onclick="readMind()">Read My Mind</button>
+        <div id="loading" class="hidden">Reading your mind...</div>
+        <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
