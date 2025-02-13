@@ -42,7 +42,6 @@ body {
   border: 2px solid white;
   padding: 20px;
   border-radius: 5px;
-  transform: translateY(-50px); /* Moves the container 50px upward */
 }
 
 /* Input and Button Styles */
